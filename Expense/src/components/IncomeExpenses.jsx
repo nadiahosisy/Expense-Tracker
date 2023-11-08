@@ -4,7 +4,6 @@ import { useContext } from "react";
 
 export const IncomeExpenses = () => {
   const { transactions } = useContext(GlobalContext);
-
   const amounts = transactions.map((transaction) => transaction.amount);
 
   const income = amounts
