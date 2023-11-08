@@ -22,7 +22,7 @@ export const GlobalProvider = ({ children }) => {
       payload: id,
     });
   }
-  function addTransactions(transaction) {
+  function addTransaction(transaction) {
     dispatch({
       type: "Add_TRANSACTION",
       payload: transaction,
@@ -33,7 +33,7 @@ export const GlobalProvider = ({ children }) => {
       value={{
         transactions: state.transactions,
         deleteTransactions,
-        addTransactions,
+        addTransaction,
       }}
     >
       {children}
