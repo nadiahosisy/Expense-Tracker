@@ -1,6 +1,6 @@
 import React from "react";
 
-const transactionList = () => {
+const TransactionList = () => {
   return (
     <>
       <h3>History</h3>
@@ -8,4 +8,4 @@ const transactionList = () => {
   );
 };
 
-export default transactionList;
+export default TransactionList;
